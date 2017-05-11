@@ -61,6 +61,12 @@
             android:entryValues="@array/media_scanner_on_boot_values"
             android:persistent="false" />
 
+        <com.dirtyunicorns.dutweaks.preference.SystemSettingSwitchPreference
+            android:key="allow_signature_fake"
+            android:title="@string/allow_signature_fake"
+            android:summary="@string/allow_signature_fake_summary"
+            android:defaultValue="false" />
+
         <PreferenceCategory
             android:key="screenshot_options"
             android:title="@string/screenshot_options_category" >
